@@ -227,27 +227,10 @@ The multi-week internship implementation follows a phased progression from conce
 Logistics-Data-Analyst-Intern/
 │
 ├── Week_1/
-│   ├── README.md                                                      <-- Week 1 Architectural Overview
-│   └── Week_1_Intelligent_Logistics_Performance_Analytics_Report.docx   <-- Official Week 1 Technical Report
-│
-├── figures/                                                           <-- Publication-Grade Visual Diagrams (300 DPI)
-│   ├── fig1_problem_landscape.png
-│   ├── fig2_kpi_hierarchy.png
-│   ├── fig3_analytics_maturity.png
-│   ├── fig4_methodology_map.png
-│   ├── fig5_analytics_lifecycle.png
-│   ├── fig6_system_architecture.png
-│   └── fig7_implementation_roadmap.png
-│
-├── scripts/                                                           <-- Analytical & Architectural Generation Scripts
-│   ├── docx_styles.py                                                 <-- Corporate Typography & Layout Specification
-│   ├── generate_polished_figures.py                                   <-- High-Resolution Vector Diagram Generators
-│   └── redesign_fig2.py                                               <-- Analytics Maturity Framework Architecture
-│
-└── requirements.txt                                                   <-- Environment Dependencies
-```
+│   ├── README.md                                                      
+│   └── Strategic Planning and Data Exploration in Logistics_Week1_Report.docx
+│   └── Strategic Planning and Data Exploration in Logistics_Week1_Report.pdf
 
----
 
 ## Author & Academic Acknowledgements
 - **Author**: Logistics Data Analytics Intern (Yuwa Remote Internship Program)
