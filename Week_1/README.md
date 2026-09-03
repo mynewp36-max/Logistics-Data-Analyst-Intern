@@ -233,7 +233,9 @@ Logistics-Data-Analyst-Intern/
 
 
 ## Author & Academic Acknowledgements
-- **Author**: Logistics Data Analytics Intern (Yuwa Remote Internship Program)
-- **Project Track**: Logistics Data Analyst Internship — Advanced Analytics & Decision Science
-- **Target Organization**: Enterprise Multi-Modal Freight & Line-Haul Distribution Network
-- **Academic Period**: August 2026 (Academic Year 2026–2027)
+
+- **Author**: Jyot Pratap Singh
+- **Program**: Yuwa Intern Program
+- **Internship Role**: Logistics Data Analyst Intern
+- **Project Track**: Logistics Data Analytics & Decision Science
+- **Academic Period**: August 2026 – Academic Year 2026–2027
