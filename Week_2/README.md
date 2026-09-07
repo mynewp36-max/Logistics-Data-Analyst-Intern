@@ -386,45 +386,37 @@ from IPython.display import display
 The Week 2 internship project generated the following verified deliverable files:
 
 1. **`Logistic_Data_Analyst_Cleaned.csv`** (149.5 MB) — Intermediate cleaned dataset containing 180,519 rows × 55 columns (44 base + 11 scaled).
-2. **`Logistic_Data_Analyst_Feature_Engineered_Week2.csv`** (173.6 MB) — Final feature-engineered dataset containing 180,519 rows × 70 columns.
-3. **`Logistic_Data_Analyst_Final_Cleaned_Workbook_.xlsx`** (85.5 MB) — Enterprise Excel workbook featuring `Logistic_Master_Business_Data` (59 cols) and `Logistic_ML_Analytics_Ready` (16 cols).
-4. **`Logistic_Data_Analyst_Week2_Data_Cleaning_and_Preprocessing.ipynb`** (18.7 MB) — Executed Jupyter notebook for Phase 1 data cleaning, missingness remediation, and standardization.
-5. **`Logistic_Data_Analyst_Week2_Feature_Engineering_and_Workbook_Architecture.ipynb`** (1.1 MB) — Executed Jupyter notebook for Phase 2 feature engineering, workbook allocation, and export.
-6. **`Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.docx`** (2.8 MB) — Comprehensive 46-page formal internship report complete with executive summaries, visual figures, and forensic script outputs.
-7. **`Week2_Interactive_Roadmap_Figure.html`** & **`.png`** — Standalone interactive Plotly workflow visualization and publication-grade 300 DPI figure.
-8. **`README.md`** — Comprehensive GitHub-quality project documentation.
+2. **`Logistic_Data_Analyst_Final_Cleaned_Workbook_.xlsx`** (85.5 MB) — Enterprise Excel workbook featuring `Logistic_Master_Business_Data` (59 cols) and `Logistic_ML_Analytics_Ready` (16 cols).
+3. **`Logistic_Data_Analyst_Week2_Data_Cleaning_and_Preprocessing.ipynb`** (18.7 MB) — Executed Jupyter notebook for Phase 1 data cleaning, missingness remediation, and standardization.
+4. **`Logistic_Data_Analyst_Week2_Feature_Engineering_and_Workbook_Architecture.ipynb`** (1.1 MB) — Executed Jupyter notebook for Phase 2 feature engineering, workbook allocation, and export.
+5. **`Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.docx`** (2.8 MB) — Comprehensive 46-page formal internship report complete with executive summaries, visual figures, and forensic script outputs.
+6. **`Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.pdf`** (1.81 MB) — Comprehensive 46-page formal internship report complete with executive summaries, visual figures, and forensic script outputs.
+7. **`README.md`** — Comprehensive GitHub-quality project documentation.
 
 ---
 
 ## 16. Project File Structure
 
 ```text
-logistic data analyst intern/
+Week_2/
+├── Data/
+│   ├── Raw Dataset/
+│   │   ├── Logistic_Data_Analyst_Intern_Raw.csv
+│   │   └── product_descriptions.csv
+│   │
+│   ├── Cleaned Data/
+│   │   └── Logistic_Data_Analyst_Cleaned.csv
+│   │
+│   └── Final Cleaned Workbook Dataset/
+│       └── Logistic_Data_Analyst_Final_Cleaned_Workbook_.xlsx
 │
-├── week 2/
-│   ├── Logistic_Data_Analyst_Intern_Raw.csv                          # Primary Raw Ingestion Dataset (100.1 MB)
-│   ├── product_descriptions.csv                                  # Reference Catalog Description Dataset (36.0 KB)
-│   ├── Logistic_Data_Analyst_Cleaned.csv                         # Cleaned Intermediate Dataset (149.5 MB)
-│   ├── Logistic_Data_Analyst_Final_Cleaned_Workbook_.xlsx        # Enterprise Dual-Sheet Excel Workbook (85.5 MB)
-│   ├── Logistic_Data_Analyst_Week2_Data_Cleaning_and_Preprocessing.ipynb # Phase 1 Pipeline Notebook
-│   ├── Logistic_Data_Analyst_Week2_Feature_Engineering_and_Workbook_Architecture.ipynb # Phase 2 Architecture Notebook
-│   ├── Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.docx # Final Report (DOCX)
-│   ├── Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.pdf  # Final Report (PDF)
-│   ├── roadmap.txt                                               # Official Step-by-Step Technical Roadmap
-│   ├── Logistics Data Analyst Intern.pdf                         # Official Internship Curriculum & Requirements
-│   ├── Countries_Cleaned.xlsx                                    # Country ISO Standardization Register
-│   ├── State_Cleaned.xlsx                                        # State Administrative Cleaning Register
-│   ├── corrected cities.xlsx                                     # City Orthographic Remediation Mapping
-│   ├── City_Name_Validation_Report.xlsx                          # City Forensic Audit Validation Report
-│   ├── column retain and drop.xlsx                               # Column Governance & Structural Decisions
-│   └── region.xlsx                                               # Geographic Region Harmonization Matrix
+├── Python Notebooks/
+│   ├── Logistic_Data_Analyst_Week2_Data_Cleaning_and_Preprocessing.ipynb
+│   └── Logistic_Data_Analyst_Week2_Feature_Engineering_and_Workbook_Architecture.ipynb
 │
-├── report_figures/
-│   ├── fig_week2_complete_roadmap.html                           # Plotly Interactive Roadmap (Archive)
-│   └── fig_week2_complete_roadmap.png                            # High-Res 300 DPI Roadmap (Archive)
-├── Week2_Interactive_Roadmap_Figure.html                         # Interactive Standalone Plotly Roadmap
-├── Week2_Interactive_Roadmap_Figure.png                          # Publication-Grade 300 DPI Roadmap Figure
-├── generate_roadmap_figure.py                                    # Standalone Plotly Roadmap Generation Script
+└── Week 2 Final Report/
+    └── Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.docx
+    └── Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.pdf
 └── README.md                                                     # Complete Project Technical Documentation
 ```
 
