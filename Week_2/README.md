@@ -399,23 +399,18 @@ The Week 2 internship project generated the following verified deliverable files
 
 ```text
 Week_2/
-├── Data/
-│   ├── Raw Dataset/
-│   │   ├── Logistic_Data_Analyst_Intern_Raw.csv
-│   │   └── product_descriptions.csv
-│   │
-│   ├── Cleaned Data/
-│   │   └── Logistic_Data_Analyst_Cleaned.csv
-│   │
-│   └── Final Cleaned Workbook Dataset/
+├── Raw Dataset/
+│      ├── Logistic_Data_Analyst_Intern_Raw.csv
+│      └── product_descriptions.csv
+├── Cleaned Dataset/
+│      └── Logistic_Data_Analyst_Cleaned.csvx
+├── Final Cleaned Workbook Dataset/
 │       └── Logistic_Data_Analyst_Final_Cleaned_Workbook_.xlsx
-│
 ├── Python Notebooks/
 │   ├── Logistic_Data_Analyst_Week2_Data_Cleaning_and_Preprocessing.ipynb
 │   └── Logistic_Data_Analyst_Week2_Feature_Engineering_and_Workbook_Architecture.ipynb
-│
 └── Week 2 Final Report/
-    └── Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.docx
+│    └── Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.docx
     └── Data Cleaning, Feature Engineering and Analytical Architecture in Logistics_Week2_Report.pdf
 └── README.md                                                     # Complete Project Technical Documentation
 ```
